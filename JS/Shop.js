@@ -103,7 +103,7 @@ const products = [
 // Function to generate product list HTML
 function generateProductHTML(product) {
   return `
-        <div class="Product">
+        <div class="Product"><a href="Product.html">
             <div class="Product_hover">
                 <button class="white_btn">Add to cart</button>
                 <div id="action_btn">
@@ -117,7 +117,7 @@ function generateProductHTML(product) {
                       product.likeIcon
                     }" alt=""> <p>Like</p></span>
                 </div>
-            </div>
+            </div></a>
             <div class="img_label">
                 <img class="Product_img_1" src="${product.image}" alt="${
     product.name
