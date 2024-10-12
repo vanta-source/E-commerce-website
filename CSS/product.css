@@ -1,0 +1,89 @@
+.element {
+  all: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%; /* Ensures full height for layout purposes */
+}
+
+#menu {
+  margin-top: 15px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#menu_items {
+  display: inline-flex;
+  position: relative;
+  list-style-type: none;
+  width: 430px;
+}
+#menu_items li a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 75px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+span#icon_items {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  fill: black;
+}
+span#icon_items svg {
+  cursor: pointer;
+}
+/* Breadcrumb */
+div#breadcrumb {
+  height: 100px;
+  background-color: #f9f1e7;
+}
+#breadcrumb {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 8.5%;
+}
+
+#breadcrumb p {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#breadcrumb span {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#breadcrumb img {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+#breadcrumb a {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  color: #131313;
+}
+#line-1 {
+  height: 37px;
+  background: black;
+  margin-bottom: 12px;
+  background-color: #4d4d4d;
+  width: 1px;
+  margin: 0 auto 0px auto;
+}
