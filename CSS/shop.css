@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 .element {
   all: none;
   margin: 0;
@@ -28,7 +29,7 @@ body {
   text-decoration: none;
   margin-right: 75px;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-weight: 500;
   cursor: pointer;
 }
@@ -62,7 +63,7 @@ p#Header-text {
   font-size: 48px;
   margin-top: 121px;
   margin-bottom: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-weight: 600;
 }
 
@@ -135,7 +136,7 @@ button#subscribe {
   font-weight: 600;
   padding-bottom: 4px;
   cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
 }
 ::placeholder {
   /* Most modern browsers support this now. */
@@ -179,7 +180,7 @@ div.Link_section li:hover {
 p.Title {
   font-size: 16px;
   font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   color: #9f9f9f;
   margin-top: 0px;
 }
@@ -188,7 +189,7 @@ div.Link_section li {
   list-style-type: none;
   font-size: 16px;
   font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   margin-top: 40px;
   cursor: pointer;
 }
@@ -200,7 +201,7 @@ div.Link_section ul {
 p#address {
   font-size: 16px;
   font-weight: 300;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   color: #9f9f9f;
   padding-top: 50px;
 }
@@ -211,7 +212,7 @@ div.copyright {
   margin-left: 7%;
   font-size: 16px;
   font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   color: #131313;
 }
 
@@ -222,6 +223,7 @@ div.copyright {
 span#icon_items svg:hover {
   fill: #b88e2f;
 }
+
 div.Product_hover {
   width: 258px;
   height: 446px;
@@ -248,7 +250,7 @@ div#filter-btn {
   width: 80px;
 }
 div#filter-btn p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-size: 20px;
 }
 div#view {
@@ -259,7 +261,7 @@ div#view {
   width: 320px;
 }
 div#view p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-size: 16px;
 }
 
@@ -279,7 +281,7 @@ div#filter-left {
   align-items: center;
 }
 span#show p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-size: 16px;
   margin-right: 12px;
 }
@@ -289,7 +291,7 @@ span#show input {
   height: 55px;
   margin-right: 30px;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   padding-left: 18px;
 }
 span#show {
@@ -304,7 +306,7 @@ div#sort select {
   height: 55px;
 
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   padding-left: 18px;
   color: #313131;
 }
@@ -338,7 +340,7 @@ div#sort {
   position: relative;
 }
 div#sort p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-size: 16px;
   margin-right: 12px;
 }
@@ -419,20 +421,20 @@ p.product_name {
   margin-bottom: 8px;
   font-size: 24px;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
 }
 p.Product_type {
   margin-top: 0px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #898989;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
 }
 p.Price {
   color: #3a3a3a;
   font-size: 20px;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   padding-right: 0px;
 }
 span.Prices {
@@ -445,6 +447,8 @@ span.Prices {
 p.Previous_Price {
   text-decoration: line-through;
   color: #b0b0b0;
+  font-family: Poppins;
+  font-size: 14px;
 }
 
 div.Product {
@@ -491,7 +495,7 @@ div.Product_hover button {
   border-radius: 2px;
   cursor: pointer;
   transition: 0.3s;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-size: 16px;
   font-weight: 600;
   display: flex;
@@ -503,6 +507,8 @@ div.Product_hover button {
 
 span.icon_btn {
   display: flex;
+  font-family: Poppins;
+  font-size: 12px;
 }
 
 span.icon_btn p {
@@ -546,7 +552,7 @@ div#action_btn {
   width: 200px;
   display: block;
   font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   padding-top: 4px;
 }
 
@@ -661,14 +667,14 @@ p.PC_HeadText {
   display: inline;
   color: #242424;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
 }
 p.PC_SubText {
   padding-left: 10px;
   font-size: 20px;
   color: #686868;
   display: inline;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   position: absolute;
   margin-top: 8px;
   margin-bottom: 0px;
@@ -680,7 +686,7 @@ p.PC_SubText {
 
 #breadcrumb p {
   display: inline;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
 }
 
 #breadcrumb span {
@@ -696,7 +702,7 @@ p.PC_SubText {
 }
 #breadcrumb a {
   display: inline;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-weight: 700;
   cursor: pointer;
   text-decoration: none;

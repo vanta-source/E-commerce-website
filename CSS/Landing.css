@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 .element {
   all: none;
   margin: 0;
@@ -28,7 +30,7 @@ body {
   text-decoration: none;
   margin-right: 75px;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-weight: 500;
   cursor: pointer;
 }
@@ -59,7 +61,7 @@ div#img-header {
 .Sign_up_container {
   width: 643px;
   position: relative;
-  height: 443px;
+  height: 460px;
   background-color: #fff3e3;
   border-radius: 10;
   margin-left: 55%;
@@ -74,7 +76,7 @@ div#img-header {
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   margin: 0px;
   padding: 0px;
   transition: 0.3s;
@@ -87,11 +89,11 @@ div#Container_text {
   padding-top: 62px;
   padding-left: 39px;
   padding-right: 35px;
-  padding-bottom: 37px;
+  padding-bottom: 44px;
 }
 p#Sub_Header {
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   margin-bottom: 0;
   color: #333333;
   font-weight: 700;
@@ -108,8 +110,8 @@ p#Description_Header {
   font-size: 18px;
   font-weight: 400;
   margin-top: 12px;
-  margin-bottom: 32px;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  font-family: Poppins;
   color: #333;
 }
 #Section_2 {
@@ -120,7 +122,7 @@ p#Title_Section2 {
   margin-bottom: 12px;
   font-size: 32px;
   font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   display: flex;
   justify-content: center;
 }
@@ -130,7 +132,7 @@ p.Sub_Section2 {
   font-size: 16px;
   font-weight: 300;
   color: #666;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   display: flex;
   justify-content: center;
 }
@@ -155,21 +157,21 @@ p.Sub_Section2 {
   display: flex;
   justify-content: center;
   font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-weight: 600;
 }
 #img_Section2_2 p {
   display: flex;
   justify-content: center;
   font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-weight: 600;
 }
 #img_Section2_3 p {
   display: flex;
   justify-content: center;
   font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-weight: 600;
 }
 .section_title {
@@ -177,7 +179,7 @@ p.Sub_Section2 {
   margin-bottom: 32px;
   font-size: 32px;
   font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   display: flex;
   justify-content: center;
 }
@@ -248,20 +250,20 @@ p.product_name {
   margin-bottom: 8px;
   font-size: 24px;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
 }
 p.Product_type {
   margin-top: 0px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #898989;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
 }
 p.Price {
   color: #3a3a3a;
   font-size: 20px;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   padding-right: 0px;
 }
 span.Prices {
@@ -274,6 +276,8 @@ span.Prices {
 p.Previous_Price {
   text-decoration: line-through;
   color: #b0b0b0;
+  font-family: Poppins;
+  font-size: 14px;
 }
 button#Secondary_button {
   align-items: center;
@@ -287,7 +291,7 @@ button#Secondary_button {
   border-color: #b88e2f;
   border-radius: 2px;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-weight: 600;
   cursor: pointer;
   margin-bottom: 62px;
@@ -320,7 +324,7 @@ div#text_4 {
 
 p#Header_S4 {
   color: #3a3a3a;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-weight: bold;
   font-size: 40px;
   width: 422px;
@@ -329,7 +333,7 @@ p#Header_S4 {
 p#Sub_S4 {
   margin-top: 8px;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-weight: 500;
   color: #616166;
 }
@@ -344,7 +348,7 @@ button#Explore_btn {
   border-radius: 2px;
   cursor: pointer;
   transition: 0.3s;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-size: 16px;
   font-weight: 600;
 }
@@ -410,7 +414,7 @@ div.slider_navigators .active {
   font-size: 16px;
   font-weight: 300;
   color: #666;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Poppins;
   display: flex;
   justify-content: center;
 }
@@ -419,7 +423,7 @@ div.slider_navigators .active {
   margin-bottom: 32px;
   font-size: 32px;
   font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   display: flex;
   justify-content: center;
 }
@@ -511,7 +515,7 @@ button#subscribe {
   font-weight: 600;
   padding-bottom: 4px;
   cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
 }
 ::placeholder {
   /* Most modern browsers support this now. */
@@ -555,7 +559,7 @@ div.Link_section li:hover {
 p.Title {
   font-size: 16px;
   font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   color: #9f9f9f;
   margin-top: 0px;
 }
@@ -564,7 +568,7 @@ div.Link_section li {
   list-style-type: none;
   font-size: 16px;
   font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   margin-top: 40px;
   cursor: pointer;
 }
@@ -576,7 +580,7 @@ div.Link_section ul {
 p#address {
   font-size: 16px;
   font-weight: 300;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   color: #9f9f9f;
   padding-top: 50px;
 }
@@ -587,7 +591,7 @@ div.copyright {
   margin-left: 7%;
   font-size: 16px;
   font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   color: #131313;
 }
 
@@ -616,7 +620,7 @@ div.Product_hover button {
   border-radius: 2px;
   cursor: pointer;
   transition: 0.3s;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-size: 16px;
   font-weight: 600;
   display: flex;
@@ -628,6 +632,8 @@ div.Product_hover button {
 
 span.icon_btn {
   display: flex;
+  font-family: Poppins;
+  font-size: 12px;
 }
 
 span.icon_btn p {
@@ -647,6 +653,6 @@ div#action_btn {
   width: 200px;
   display: block;
   font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   padding-top: 4px;
 }

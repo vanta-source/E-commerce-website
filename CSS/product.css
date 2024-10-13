@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 .element {
   all: none;
   margin: 0;
@@ -28,17 +29,22 @@ body {
   text-decoration: none;
   margin-right: 75px;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-weight: 500;
   cursor: pointer;
 }
-
+#menu_items li a:hover {
+  color: #b88e2f;
+}
 span#icon_items {
   position: relative;
   display: flex;
   justify-content: space-around;
   width: 300px;
   fill: black;
+}
+span#icon_items svg:hover {
+  fill: #b88e2f;
 }
 span#icon_items svg {
   cursor: pointer;
@@ -57,33 +63,48 @@ div#breadcrumb {
 
 #breadcrumb p {
   display: inline;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-family: Poppins;
+  color: #141414;
+  
 }
 
 #breadcrumb span {
-  width: 300px;
+  width: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #breadcrumb img {
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-right: 20px;
 }
 #breadcrumb a {
   display: inline;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-family: Poppins;
+  font-weight: 300;
   cursor: pointer;
   text-decoration: none;
-  color: #131313;
+  color: #9F9F9F;
+  margin-right: 20px;
+ 
 }
-#line-1 {
+.line-1 {
   height: 37px;
   background: black;
   margin-bottom: 12px;
   background-color: #4d4d4d;
   width: 1px;
-  margin: 0 auto 0px auto;
+  margin: 0 20px 0px 20px;
+}
+/* Product Description*/
+#Images{
+  width: 50%;
+  height:700px ;
+}
+#ProductInfo{
+  width: 50%;
+}
+div#Section2{
+  display: flex;
 }
