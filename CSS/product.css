@@ -91,9 +91,8 @@ div#breadcrumb {
 }
 .line-1 {
   height: 37px;
-  background: black;
   margin-bottom: 12px;
-  background-color: #4d4d4d;
+  background-color: #9F9F9F;
   width: 1px;
   margin: 0 20px 0px 20px;
 }
@@ -101,10 +100,41 @@ div#breadcrumb {
 #Images{
   width: 50%;
   height:700px ;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
 }
 #ProductInfo{
   width: 50%;
 }
 div#Section2{
   display: flex;
+}
+div.Small-imgs{
+  height: 416px;
+  display: grid;
+  margin-right: 30px;
+}
+p#ProductTitle{
+  font-family: Poppins;
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+div#ProductInfo span{
+  display: flex;
+  align-items: center;
+  font-family: Poppins;
+  color: #9F9F9F;
+}
+div#ProductInfo span img{
+  height: 20px;
+  
+}
+p#ProductDescription{
+  width:400px;
+  font-family: Poppins;
+}
+p#ProductPrice{
+  font-family: Poppins;
 }
