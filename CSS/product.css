@@ -147,9 +147,6 @@ p#ProductPrice{
   width: 130px;
 
 }
-
-
-
 .SelectRadio {
   display: flex;
   width: 38px;
@@ -167,3 +164,46 @@ p#ProductPrice{
   background-color: #b88e2f;
   color: #F9F1E7;
 } 
+
+#Color{
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+
+}
+
+.SelectColor{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+.SelectColor#Purple{
+  background-color: #816DFA;
+}
+
+.SelectColor#Black{
+  background-color: #141414;
+}
+
+.SelectColor#Gold{
+  background-color: #b88e2f;
+}
+
+.ActiveColor{
+  outline:3px solid #b88e2f;
+}
+
+button.ghostBtn {
+  width: 215px ;
+  height:64px ;
+  background-color: #fff;
+  margin-right: 10px;
+  border-radius: 15px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  outline: 1px;
+  cursor: pointer;
+}

@@ -19,4 +19,27 @@ function clearActivebtn(){
 
 //Set Default
 ButtonsList[0].classList.add("active");
-//Add Event Listener to Array
+
+
+//Apply same setting for color selector
+//Get access to DOM and store amounts
+const colorButtons = document.getElementsByClassName("SelectColor");
+var ColorList = [...colorButtons];
+console.log(ColorList)
+//Make Array from Nodelist
+ColorList.forEach((color) => {
+    color.addEventListener("click", function(){
+        clearActiveCl();
+        color.classList.add("ActiveColor");
+
+    });
+});
+
+//Delete the Active style function
+function clearActiveCl(){
+    ColorList.forEach((color) => color.classList.remove("ActiveColor"));
+}
+//Default
+
+ColorList[0].classList.add("ActiveColor");
+
