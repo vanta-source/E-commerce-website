@@ -43,3 +43,7 @@ function clearActiveCl(){
 
 ColorList[0].classList.add("ActiveColor");
 
+//Counter Logic
+//Access to DOM
+const count = parseInt(document.getElementsByClassName("counterNum"))
+console.log(typeof(count))

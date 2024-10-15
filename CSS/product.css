@@ -207,3 +207,155 @@ button.ghostBtn {
   outline: 1px;
   cursor: pointer;
 }
+#Purchase_Actions{
+  display: flex;
+}
+
+#counter{
+  width: 120px;
+  display: flex;
+  border:2px solid #141414;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-right: 8px;
+  
+}
+#counter button{
+  background-color: transparent;
+  border: none;
+  font-family: Poppins;
+  font-size:18px ;
+  cursor: pointer;
+}
+#counter p{
+font-family: Poppins;
+}
+
+
+
+
+
+/*Footer*/
+#Section_3 {
+  height: 1900px;
+}
+.Fixed {
+  margin-top: -174px;
+  position: absolute;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+#Logo_section {
+  display: flex;
+  width: 285px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#footer_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+button#subscribe {
+  margin-left: 12px;
+  width: 90px;
+  padding: 1px 0px 1px 0px;
+  border-left: #ffffff00;
+  border-right: #ffffff00;
+  border-top: #ffffff00;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 4px;
+  cursor: pointer;
+  font-family: Poppins;
+}
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: rgb(180, 180, 180);
+}
+
+input#email {
+  border-color: #333333;
+  border-left: #ffffff00;
+  border-right: #ffffff00;
+  border-top: #ffffff00;
+  background-color: #ffffff;
+  color: #303030;
+  padding-bottom: 4px;
+  transition: box-shadow 0.3s ease;
+}
+
+input#email:focus::placeholder {
+  color: transparent;
+}
+
+input#email:focus {
+  outline: none;
+  border-color: #b88e2f;
+  border-left: #ffffff00;
+  border-right: #ffffff00;
+  border-top: #ffffff00;
+  background-color: #ffffff;
+  color: #292929;
+}
+
+button#subscribe:hover {
+  color: #b88e2f;
+  border-bottom: 2px solid #b88e2f;
+}
+
+div.Link_section li:hover {
+  color: #b88e2f;
+}
+
+p.Title {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #9f9f9f;
+  margin-top: 0px;
+}
+
+div.Link_section li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Poppins;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+div.Link_section ul {
+  padding-left: 0px;
+}
+
+p#address {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: Poppins;
+  color: #9f9f9f;
+  padding-top: 50px;
+}
+
+div.copyright {
+  padding: 20px 0px 20px 0px;
+  height: 38px;
+  margin-left: 7%;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #131313;
+}
+.line-2 {
+  height: 1px;
+  background: black;
+  margin-bottom: 12px;
+  background-color: #efefef;
+  width: 90%;
+  margin: 0 auto 0px auto;
+}
+/*End Footer*/
