@@ -45,5 +45,24 @@ ColorList[0].classList.add("ActiveColor");
 
 //Counter Logic
 //Access to DOM
-const count = parseInt(document.getElementsByClassName("counterNum"))
-console.log(typeof(count))
+let counter = 0;
+let count = document.getElementById("counterNum").innerHTML;
+console.log(count)
+
+    document.getElementById("minus").onclick = function(){
+        if (counter>0) {
+            counter--;
+            document.getElementById("counterNum").innerHTML = counter;
+            console.log(counter)
+        } else {
+            counter === 0;
+            document.getElementById("counterNum").innerHTML = counter;
+        }
+
+}
+
+document.getElementById("plus").onclick = function(){
+    counter++;
+    document.getElementById("counterNum").innerHTML = counter;
+    console.log(counter)
+    }
